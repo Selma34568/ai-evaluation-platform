@@ -1,0 +1,187 @@
+[
+  {
+    "id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+    "name": "ATA RAG Golden Dataset",
+    "system": "ata-rag",
+    "version": "v1",
+    "description": "Initial golden evaluation dataset for ATA RAG.",
+    "cases": [
+      {
+        "id": "ata-001",
+        "system": "ata-rag",
+        "input": {
+          "question": "Where is ATA University located?"
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "required_fields": [
+            "answer"
+          ]
+        }
+      }
+    ],
+    "created_at": "2026-09-15T22:38:15.045243Z"
+  },
+  {
+    "id": "8152c7e2-6fb1-42ff-8333-2b4a18932763",
+    "name": "ATA RAG Golden Dataset",
+    "system": "ata-rag",
+    "version": "v2",
+    "description": "Evaluation dataset for ATA RAG with multiple questions.",
+    "cases": [
+      {
+        "id": "ata-001",
+        "system": "ata-rag",
+        "input": {
+          "question": "Where is ATA University located?"
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "required_fields": [
+            "answer"
+          ]
+        }
+      },
+      {
+        "id": "ata-002",
+        "system": "ata-rag",
+        "input": {
+          "question": "In which other Polish city besides Warsaw does ATA University have a campus?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "required_fields": [
+            "answer"
+          ]
+        }
+      }
+    ],
+    "created_at": "2026-09-16T14:09:32.753604Z"
+  },
+  {
+    "id": "31dfb4d6-f54e-42fd-92c0-6c5993823052",
+    "name": "ATA RAG Location Test",
+    "system": "ata-rag",
+    "version": "v3",
+    "description": "Initial 10-case location evaluation dataset for ATA RAG.",
+    "cases": [
+      {
+        "id": "ata-001",
+        "system": "ata-rag",
+        "input": {
+          "question": "Name one Polish city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {}
+      },
+      {
+        "id": "ata-002",
+        "system": "ata-rag",
+        "input": {
+          "question": "In which other Polish city besides Warsaw does ATA University operate?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {}
+      },
+      {
+        "id": "ata-003",
+        "system": "ata-rag",
+        "input": {
+          "question": "Is Warsaw one of the cities where ATA University operates? Answer with the city name."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {}
+      },
+      {
+        "id": "ata-004",
+        "system": "ata-rag",
+        "input": {
+          "question": "Is Wrocław one of ATA University's locations? Identify the city."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {}
+      },
+      {
+        "id": "ata-005",
+        "system": "ata-rag",
+        "input": {
+          "question": "Which city mentioned in ATA University's information is Poland's capital?"
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {}
+      },
+      {
+        "id": "ata-006",
+        "system": "ata-rag",
+        "input": {
+          "question": "ATA University operates in Warsaw and which other city?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {}
+      },
+      {
+        "id": "ata-007",
+        "system": "ata-rag",
+        "input": {
+          "question": "Does ATA University operate in Warsaw? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {}
+      },
+      {
+        "id": "ata-008",
+        "system": "ata-rag",
+        "input": {
+          "question": "Does ATA University operate in Wrocław? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {}
+      },
+      {
+        "id": "ata-009",
+        "system": "ata-rag",
+        "input": {
+          "question": "Identify the capital city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {}
+      },
+      {
+        "id": "ata-010",
+        "system": "ata-rag",
+        "input": {
+          "question": "Name ATA University's other Polish operating city, excluding Warsaw."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {}
+      }
+    ],
+    "created_at": "2026-09-17T22:16:34.199624Z"
+  }
+]

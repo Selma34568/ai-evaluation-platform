@@ -1,0 +1,3471 @@
+[
+  {
+    "id": "50d13c4f-3802-429e-9da0-5119b00f9c4f",
+    "created_at": "2026-09-16T15:56:16.665475Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v1",
+      "total_cases": 1,
+      "passed_cases": 1,
+      "failed_cases": 0,
+      "average_score": 1.0,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University has campuses in two Polish cities: **Warsaw** and **Wrocław**."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              }
+            ],
+            "average_score": 1.0,
+            "all_passed": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "811226f8-04eb-49c2-a8fd-b45de2f3438f",
+    "created_at": "2026-09-16T20:44:49.515331Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v1",
+      "total_cases": 1,
+      "passed_cases": 1,
+      "failed_cases": 0,
+      "average_score": 1.0,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University has campuses in two Polish cities: **Warsaw** and **Wrocław**."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              }
+            ],
+            "average_score": 1.0,
+            "all_passed": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "1684125f-a6cc-4095-bcae-371988df8a2e",
+    "created_at": "2026-09-16T20:57:02.607975Z",
+    "mode": "manual",
+    "result": {
+      "dataset_id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v1",
+      "total_cases": 1,
+      "passed_cases": 0,
+      "failed_cases": 1,
+      "average_score": 0.5,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 0.0,
+                "passed": false,
+                "category": "deterministic",
+                "reason": "Expected answer was not found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "Berlin"
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              }
+            ],
+            "average_score": 0.5,
+            "all_passed": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "6d155b22-fd4d-4ab3-8328-7aeabd78c62b",
+    "created_at": "2026-09-17T13:51:42.607790Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v1",
+      "total_cases": 1,
+      "passed_cases": 0,
+      "failed_cases": 1,
+      "average_score": 0.7999999999999999,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University has campuses in two Polish cities: Warsaw and Wrocław."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.4,
+                "passed": false,
+                "category": "llm",
+                "reason": "The actual output provides some relevant information about ATA University, but the answer is not directly provided. The expected output only asked for the location of the university.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University has campuses in two Polish cities: Warsaw and Wrocław.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4975,
+                        "final_score": 0.4975
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Rozmowa kwalifikacyjna na kierunku Architektura Wnętrz studia II stopnia",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.4103,
+                        "final_score": 0.4103
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.4,
+                    "passed": false,
+                    "reason": "The actual output provides some relevant information about ATA University, but the answer is not directly provided. The expected output only asked for the location of the university."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.7999999999999999,
+            "all_passed": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "3fc368c7-d4f7-48f8-8a16-9000b377760d",
+    "created_at": "2026-09-17T13:51:53.960557Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v1",
+      "total_cases": 1,
+      "passed_cases": 0,
+      "failed_cases": 1,
+      "average_score": 0.6666666666666666,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University has campuses in two cities: **Warsaw** and **Wrocław**."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.0,
+                "passed": false,
+                "category": "llm",
+                "reason": "Expected 'Warsaw', but actual answer includes additional information and cites external sources.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University has campuses in two cities: **Warsaw** and **Wrocław**.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4975,
+                        "final_score": 0.4975
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Rozmowa kwalifikacyjna na kierunku Architektura Wnętrz studia II stopnia",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.4103,
+                        "final_score": 0.4103
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.0,
+                    "passed": false,
+                    "reason": "Expected 'Warsaw', but actual answer includes additional information and cites external sources."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.6666666666666666,
+            "all_passed": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "97b2bd23-6e3e-4321-a0bc-e10943ffee4a",
+    "created_at": "2026-09-17T13:52:04.892329Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v1",
+      "total_cases": 1,
+      "passed_cases": 0,
+      "failed_cases": 1,
+      "average_score": 0.7999999999999999,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University operates in two Polish cities: Warsaw and Wrocław."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.4,
+                "passed": false,
+                "category": "llm",
+                "reason": "The actual output provides relevant information about ATA University's locations, but the answer itself is not 'Warsaw'. It should be more specific and directly address the question.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University operates in two Polish cities: Warsaw and Wrocław.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4975,
+                        "final_score": 0.4975
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Rozmowa kwalifikacyjna na kierunku Architektura Wnętrz studia II stopnia",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.4103,
+                        "final_score": 0.4103
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.4,
+                    "passed": false,
+                    "reason": "The actual output provides relevant information about ATA University's locations, but the answer itself is not 'Warsaw'. It should be more specific and directly address the question."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.7999999999999999,
+            "all_passed": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "bc6ab745-4ef4-4171-aef0-f6a02691f4f1",
+    "created_at": "2026-09-17T13:52:15.801443Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v1",
+      "total_cases": 1,
+      "passed_cases": 0,
+      "failed_cases": 1,
+      "average_score": 0.6666666666666666,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University has campuses in **two cities: Warsaw and Wrocław**."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.0,
+                "passed": false,
+                "category": "llm",
+                "reason": "The actual output contains extraneous information about the university's campuses, and the answer is not a direct response to the question.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University has campuses in **two cities: Warsaw and Wrocław**.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4975,
+                        "final_score": 0.4975
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Rozmowa kwalifikacyjna na kierunku Architektura Wnętrz studia II stopnia",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.4103,
+                        "final_score": 0.4103
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.0,
+                    "passed": false,
+                    "reason": "The actual output contains extraneous information about the university's campuses, and the answer is not a direct response to the question."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.6666666666666666,
+            "all_passed": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "8ba49aa2-9140-479d-826b-2fcac905c59b",
+    "created_at": "2026-09-17T13:52:28.548201Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v1",
+      "total_cases": 1,
+      "passed_cases": 0,
+      "failed_cases": 1,
+      "average_score": 0.6666666666666666,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University operates in two Polish cities: Warsaw and Wrocław."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.0,
+                "passed": false,
+                "category": "llm",
+                "reason": "The actual output does not directly answer the question. It provides additional information about the university, but the answer to the question is missing.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University operates in two Polish cities: Warsaw and Wrocław.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4975,
+                        "final_score": 0.4975
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Rozmowa kwalifikacyjna na kierunku Architektura Wnętrz studia II stopnia",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.4103,
+                        "final_score": 0.4103
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.0,
+                    "passed": false,
+                    "reason": "The actual output does not directly answer the question. It provides additional information about the university, but the answer to the question is missing."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.6666666666666666,
+            "all_passed": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "8f2834bd-99a6-4100-832a-396d04c16ffe",
+    "created_at": "2026-09-17T13:52:38.657736Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v1",
+      "total_cases": 1,
+      "passed_cases": 0,
+      "failed_cases": 1,
+      "average_score": 0.7999999999999999,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University has campuses in two Polish cities: Warsaw and Wrocław."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.4,
+                "passed": false,
+                "category": "llm",
+                "reason": "The actual output provides more information about ATA University than the expected output, but it does not directly answer the question. The score is low because the actual output is not fully relevant to the question.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University has campuses in two Polish cities: Warsaw and Wrocław.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4975,
+                        "final_score": 0.4975
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Rozmowa kwalifikacyjna na kierunku Architektura Wnętrz studia II stopnia",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.4103,
+                        "final_score": 0.4103
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.4,
+                    "passed": false,
+                    "reason": "The actual output provides more information about ATA University than the expected output, but it does not directly answer the question. The score is low because the actual output is not fully relevant to the question."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.7999999999999999,
+            "all_passed": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "64f93206-a82b-45e5-9f67-cb3e8d868def",
+    "created_at": "2026-09-17T13:52:49.026542Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v1",
+      "total_cases": 1,
+      "passed_cases": 0,
+      "failed_cases": 1,
+      "average_score": 0.7999999999999999,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University operates in two Polish cities: Warsaw and Wrocław."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.4,
+                "passed": false,
+                "category": "llm",
+                "reason": "The actual output provides relevant information about ATA University's locations and includes citations, but the main answer does not directly match the expected output. It is mostly relevant but not fully correct.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University operates in two Polish cities: Warsaw and Wrocław.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4975,
+                        "final_score": 0.4975
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Rozmowa kwalifikacyjna na kierunku Architektura Wnętrz studia II stopnia",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.4103,
+                        "final_score": 0.4103
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.4,
+                    "passed": false,
+                    "reason": "The actual output provides relevant information about ATA University's locations and includes citations, but the main answer does not directly match the expected output. It is mostly relevant but not fully correct."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.7999999999999999,
+            "all_passed": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "3b5a87be-6ef8-401f-8201-a4ec90a6d8ab",
+    "created_at": "2026-09-17T13:52:59.660461Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v1",
+      "total_cases": 1,
+      "passed_cases": 0,
+      "failed_cases": 1,
+      "average_score": 0.7000000000000001,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University has campuses in two Polish cities: Warsaw and Wrocław."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.1,
+                "passed": false,
+                "category": "llm",
+                "reason": "The actual output provides the location of ATA University but the expected output only requested the location.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University has campuses in two Polish cities: Warsaw and Wrocław.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4975,
+                        "final_score": 0.4975
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Rozmowa kwalifikacyjna na kierunku Architektura Wnętrz studia II stopnia",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.4103,
+                        "final_score": 0.4103
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.1,
+                    "passed": false,
+                    "reason": "The actual output provides the location of ATA University but the expected output only requested the location."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.7000000000000001,
+            "all_passed": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "af48b924-65d6-4084-853c-f5b5982e31bd",
+    "created_at": "2026-09-17T13:53:11.464072Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v1",
+      "total_cases": 1,
+      "passed_cases": 0,
+      "failed_cases": 1,
+      "average_score": 0.6666666666666666,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University operates in two Polish cities: Warsaw and Wrocław."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.0,
+                "passed": false,
+                "category": "llm",
+                "reason": "The actual output provides more information than expected, including citations, which are not relevant to the answer. The answer itself is not fully correct, as the expected output only asks for the location of the university.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University operates in two Polish cities: Warsaw and Wrocław.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4975,
+                        "final_score": 0.4975
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Rozmowa kwalifikacyjna na kierunku Architektura Wnętrz studia II stopnia",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.4103,
+                        "final_score": 0.4103
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.0,
+                    "passed": false,
+                    "reason": "The actual output provides more information than expected, including citations, which are not relevant to the answer. The answer itself is not fully correct, as the expected output only asks for the location of the university."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.6666666666666666,
+            "all_passed": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "6ba1882c-ac8e-4c44-8022-3f8943b09504",
+    "created_at": "2026-09-17T13:53:22.044375Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v1",
+      "total_cases": 1,
+      "passed_cases": 0,
+      "failed_cases": 1,
+      "average_score": 0.7000000000000001,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University operates in two Polish cities: Warsaw and Wrocław."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.1,
+                "passed": false,
+                "category": "llm",
+                "reason": "Answer is not fully relevant to the question and contains additional information about ATA University's locations.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University operates in two Polish cities: Warsaw and Wrocław.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4975,
+                        "final_score": 0.4975
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Rozmowa kwalifikacyjna na kierunku Architektura Wnętrz studia II stopnia",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.4103,
+                        "final_score": 0.4103
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.1,
+                    "passed": false,
+                    "reason": "Answer is not fully relevant to the question and contains additional information about ATA University's locations."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.7000000000000001,
+            "all_passed": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "533646ed-117c-46bf-bbae-ae5436c96cf0",
+    "created_at": "2026-09-17T13:53:32.964197Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v1",
+      "total_cases": 1,
+      "passed_cases": 0,
+      "failed_cases": 1,
+      "average_score": 0.6666666666666666,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University operates in two Polish cities: Warsaw and Wrocław."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.0,
+                "passed": false,
+                "category": "llm",
+                "reason": "The actual output provides additional context and citations that are not relevant to the answer to the question. The answer itself is not semantically consistent with the expected output.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University operates in two Polish cities: Warsaw and Wrocław.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4975,
+                        "final_score": 0.4975
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Rozmowa kwalifikacyjna na kierunku Architektura Wnętrz studia II stopnia",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.4103,
+                        "final_score": 0.4103
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.0,
+                    "passed": false,
+                    "reason": "The actual output provides additional context and citations that are not relevant to the answer to the question. The answer itself is not semantically consistent with the expected output."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.6666666666666666,
+            "all_passed": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "c8416b44-d5d3-4667-bc75-d3f4d6ed9283",
+    "created_at": "2026-09-17T13:53:43.989520Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v1",
+      "total_cases": 1,
+      "passed_cases": 0,
+      "failed_cases": 1,
+      "average_score": 0.6666666666666666,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University operates in two cities in Poland: Warsaw and Wrocław."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.0,
+                "passed": false,
+                "category": "llm",
+                "reason": "Answer is not semantically consistent with the expected response. The expected output is a single location, but the actual output provides two cities.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University operates in two cities in Poland: Warsaw and Wrocław.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4975,
+                        "final_score": 0.4975
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Rozmowa kwalifikacyjna na kierunku Architektura Wnętrz studia II stopnia",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.4103,
+                        "final_score": 0.4103
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.0,
+                    "passed": false,
+                    "reason": "Answer is not semantically consistent with the expected response. The expected output is a single location, but the actual output provides two cities."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.6666666666666666,
+            "all_passed": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "bfa839c1-04ab-4a2e-a925-ba46ef88eb51",
+    "created_at": "2026-09-17T13:53:54.906700Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v1",
+      "total_cases": 1,
+      "passed_cases": 0,
+      "failed_cases": 1,
+      "average_score": 0.7333333333333334,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University operates in two Polish cities: Warsaw and Wrocław."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.2,
+                "passed": false,
+                "category": "llm",
+                "reason": "The actual output contains more information than expected and does not directly answer the question about the location of ATA University.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University operates in two Polish cities: Warsaw and Wrocław.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4975,
+                        "final_score": 0.4975
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Rozmowa kwalifikacyjna na kierunku Architektura Wnętrz studia II stopnia",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.4103,
+                        "final_score": 0.4103
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.2,
+                    "passed": false,
+                    "reason": "The actual output contains more information than expected and does not directly answer the question about the location of ATA University."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.7333333333333334,
+            "all_passed": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "7df694ae-ba8c-4531-b166-8b99697d421c",
+    "created_at": "2026-09-17T13:54:06.887978Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v1",
+      "total_cases": 1,
+      "passed_cases": 0,
+      "failed_cases": 1,
+      "average_score": 0.6666666666666666,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University operates in two cities in Poland: **Warsaw** and **Wrocław**."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.0,
+                "passed": false,
+                "category": "llm",
+                "reason": "The actual output contains irrelevant information about the university's operations in multiple cities and citations, which deviates from the expected response that only provides the city where ATA University is located.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University operates in two cities in Poland: **Warsaw** and **Wrocław**.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4975,
+                        "final_score": 0.4975
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Rozmowa kwalifikacyjna na kierunku Architektura Wnętrz studia II stopnia",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.4103,
+                        "final_score": 0.4103
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.0,
+                    "passed": false,
+                    "reason": "The actual output contains irrelevant information about the university's operations in multiple cities and citations, which deviates from the expected response that only provides the city where ATA University is located."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.6666666666666666,
+            "all_passed": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "ad51b2a0-7d6a-4e98-943a-872ff40a7cdb",
+    "created_at": "2026-09-17T13:54:17.757347Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v1",
+      "total_cases": 1,
+      "passed_cases": 0,
+      "failed_cases": 1,
+      "average_score": 0.6666666666666666,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University operates in two Polish cities: Warsaw and Wrocław."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.0,
+                "passed": false,
+                "category": "llm",
+                "reason": "The actual output contains multiple locations (Warsaw and Wrocław) and additional information about citations, which deviates from the expected output's simplicity and relevance.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University operates in two Polish cities: Warsaw and Wrocław.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4975,
+                        "final_score": 0.4975
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Rozmowa kwalifikacyjna na kierunku Architektura Wnętrz studia II stopnia",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.4103,
+                        "final_score": 0.4103
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.0,
+                    "passed": false,
+                    "reason": "The actual output contains multiple locations (Warsaw and Wrocław) and additional information about citations, which deviates from the expected output's simplicity and relevance."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.6666666666666666,
+            "all_passed": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "d4d464c4-1beb-43c5-a1e5-51420017a539",
+    "created_at": "2026-09-17T14:11:45.488321Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "ae64b963-4022-43f9-be01-b4b30d4e1318",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v1",
+      "total_cases": 1,
+      "passed_cases": 1,
+      "failed_cases": 0,
+      "average_score": 0.9,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University operates in two Polish cities: Warsaw and Wrocław."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer contains the essential correct information, but also includes additional details that do not detract from the accuracy of the main point.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University operates in two Polish cities: Warsaw and Wrocław.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4975,
+                        "final_score": 0.4975
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Rozmowa kwalifikacyjna na kierunku Architektura Wnętrz studia II stopnia",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.4103,
+                        "final_score": 0.4103
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer contains the essential correct information, but also includes additional details that do not detract from the accuracy of the main point."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "61ff4956-2a71-435f-b995-2bd4f18ad216",
+    "created_at": "2026-09-17T14:47:06.184485Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "8152c7e2-6fb1-42ff-8333-2b4a18932763",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v2",
+      "total_cases": 2,
+      "passed_cases": 2,
+      "failed_cases": 0,
+      "average_score": 0.9,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University operates in two Polish cities: Warsaw and Wrocław."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer contains the essential correct information, but also includes additional details that do not detract from the accuracy of the main point.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University operates in two Polish cities: Warsaw and Wrocław.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4975,
+                        "final_score": 0.4975
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Rozmowa kwalifikacyjna na kierunku Architektura Wnętrz studia II stopnia",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.4103,
+                        "final_score": 0.4103
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer contains the essential correct information, but also includes additional details that do not detract from the accuracy of the main point."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-002",
+          "evaluation": {
+            "case_id": "ata-002",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Wrocław",
+                  "actual_answer": "ATA University also has a campus in **Wrocław**. This is indicated in the recruitment information, which lists the two cities where ATA operates as Warsaw and Wrocław."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer contains the essential correct information, but also includes additional details that may be distracting or irrelevant to the user's question.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Wrocław"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University also has a campus in **Wrocław**. This is indicated in the recruitment information, which lists the two cities where ATA operates as Warsaw and Wrocław.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Zniżki na studiach w języku angielskim",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.5205,
+                        "final_score": 0.6405
+                      },
+                      {
+                        "title": "Czesne — Architektura Wnętrz",
+                        "section": "Czesne: Architektura Wnętrz",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.4705,
+                        "final_score": 0.5905
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": false,
+                    "reason": "The actual answer contains the essential correct information, but also includes additional details that may be distracting or irrelevant to the user's question."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "818c2661-b41e-4594-8ae6-6f55cc066faa",
+    "created_at": "2026-09-17T14:47:30.737297Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "8152c7e2-6fb1-42ff-8333-2b4a18932763",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v2",
+      "total_cases": 2,
+      "passed_cases": 2,
+      "failed_cases": 0,
+      "average_score": 0.9,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University has campuses in two cities: **Warsaw** and **Wrocław** (Poland)."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer contains the essential correct information, but includes additional details that are relevant and consistent with the expected answer.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University has campuses in two cities: **Warsaw** and **Wrocław** (Poland).",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4975,
+                        "final_score": 0.4975
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Rozmowa kwalifikacyjna na kierunku Architektura Wnętrz studia II stopnia",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.4103,
+                        "final_score": 0.4103
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer contains the essential correct information, but includes additional details that are relevant and consistent with the expected answer."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-002",
+          "evaluation": {
+            "case_id": "ata-002",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Wrocław",
+                  "actual_answer": "According to the ATA information, besides Warsaw the university also has a campus in **Wrocław**."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer contains the essential correct information, but includes additional context that is not strictly necessary to answer the question.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Wrocław"
+                  },
+                  "actual_output": {
+                    "answer": "According to the ATA information, besides Warsaw the university also has a campus in **Wrocław**.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Zniżki na studiach w języku angielskim",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.5205,
+                        "final_score": 0.6405
+                      },
+                      {
+                        "title": "Czesne — Architektura Wnętrz",
+                        "section": "Czesne: Architektura Wnętrz",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.4705,
+                        "final_score": 0.5905
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer contains the essential correct information, but includes additional context that is not strictly necessary to answer the question."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "4e6c6220-8942-44fa-b2ca-1cbfdf4b0d1b",
+    "created_at": "2026-09-17T14:48:03.615794Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "8152c7e2-6fb1-42ff-8333-2b4a18932763",
+      "dataset_name": "ATA RAG Golden Dataset",
+      "system": "ata-rag",
+      "version": "v2",
+      "total_cases": 2,
+      "passed_cases": 2,
+      "failed_cases": 0,
+      "average_score": 0.9,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA University operates in two Polish cities: Warsaw and Wrocław."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer contains the essential correct information, but also includes additional details that do not detract from the accuracy of the main point.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University operates in two Polish cities: Warsaw and Wrocław.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4975,
+                        "final_score": 0.4975
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Rozmowa kwalifikacyjna na kierunku Architektura Wnętrz studia II stopnia",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.4103,
+                        "final_score": 0.4103
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer contains the essential correct information, but also includes additional details that do not detract from the accuracy of the main point."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-002",
+          "evaluation": {
+            "case_id": "ata-002",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Wrocław",
+                  "actual_answer": "According to the ATA information, besides Warsaw the university also has a campus in **Wrocław**."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [
+                    "answer"
+                  ],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer contains the essential correct information, but includes additional context that is not strictly necessary to answer the question.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Wrocław"
+                  },
+                  "actual_output": {
+                    "answer": "According to the ATA information, besides Warsaw the university also has a campus in **Wrocław**.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Zniżki na studiach w języku angielskim",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.5205,
+                        "final_score": 0.6405
+                      },
+                      {
+                        "title": "Czesne — Architektura Wnętrz",
+                        "section": "Czesne: Architektura Wnętrz",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.4705,
+                        "final_score": 0.5905
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer contains the essential correct information, but includes additional context that is not strictly necessary to answer the question."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "afd19386-bc80-4c5a-a97c-98cb35ed1fc7",
+    "created_at": "2026-09-17T22:24:53.580947Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "31dfb4d6-f54e-42fd-92c0-6c5993823052",
+      "dataset_name": "ATA RAG Location Test",
+      "system": "ata-rag",
+      "version": "v3",
+      "total_cases": 10,
+      "passed_cases": 10,
+      "failed_cases": 0,
+      "average_score": 0.9,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "Warsaw."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer contains the essential correct information, but lacks a period at the end, making it slightly less clear than the expected answer.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "Warsaw.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Zapytaj o zakwaterowanie",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.5521,
+                        "final_score": 0.5521
+                      },
+                      {
+                        "title": "Czesne — Architektura",
+                        "section": "Czesne: Architektura",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.4499,
+                        "final_score": 0.4499
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer contains the essential correct information, but lacks a period at the end, making it slightly less clear than the expected answer."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-002",
+          "evaluation": {
+            "case_id": "ata-002",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Wrocław",
+                  "actual_answer": "ATA University also operates in the city of **Wrocław**."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer contains the essential correct information, but also includes additional information that makes the answer potentially misleading.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Wrocław"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University also operates in the city of **Wrocław**.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Zniżki na studiach w języku angielskim",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.5316,
+                        "final_score": 0.6516
+                      },
+                      {
+                        "title": "Czesne — Zarządzanie",
+                        "section": "Czesne: Zarządzanie — Biznes międzynarodowy",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.4935,
+                        "final_score": 0.6135
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": false,
+                    "reason": "The actual answer contains the essential correct information, but also includes additional information that makes the answer potentially misleading."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-003",
+          "evaluation": {
+            "case_id": "ata-003",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "Warsaw"
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer matches the expected answer in terms of content, but it's unclear if it's the only correct response. The answer is relevant and consistent with the expected answer.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "Warsaw",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Zniżki na studiach w języku angielskim",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4629,
+                        "final_score": 0.5829
+                      },
+                      {
+                        "title": "Czesne — Architektura",
+                        "section": "Czesne: Architektura",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.4366,
+                        "final_score": 0.5566
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer matches the expected answer in terms of content, but it's unclear if it's the only correct response. The answer is relevant and consistent with the expected answer."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-004",
+          "evaluation": {
+            "case_id": "ata-004",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Wrocław",
+                  "actual_answer": "Yes. According to the ATA information, Wrocław is listed as a city where ATA University offers programmes. The city is **Wrocław**."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer correctly identifies Wrocław as a city where ATA University offers programmes, matching the expected answer's essential meaning.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Wrocław"
+                  },
+                  "actual_output": {
+                    "answer": "Yes. According to the ATA information, Wrocław is listed as a city where ATA University offers programmes. The city is **Wrocław**.",
+                    "citations": [
+                      {
+                        "title": "Czesne — Architektura",
+                        "section": "Czesne: Architektura",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.5069,
+                        "final_score": 0.6269
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer correctly identifies Wrocław as a city where ATA University offers programmes, matching the expected answer's essential meaning."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-005",
+          "evaluation": {
+            "case_id": "ata-005",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "The city mentioned in ATA University’s information that is Poland’s capital is Warsaw (Warszawa)."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer contains the essential correct information, but includes additional details that do not detract from the accuracy of the response.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "The city mentioned in ATA University’s information that is Poland’s capital is Warsaw (Warszawa).",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Zapytaj o zakwaterowanie",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.6103,
+                        "final_score": 0.6103
+                      },
+                      {
+                        "title": "Czesne — Budownictwo",
+                        "section": "Czesne: Budownictwo — Inżynieria i bezpieczeństwo obiektów infrastruktury krytycznej",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.5457,
+                        "final_score": 0.5457
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer contains the essential correct information, but includes additional details that do not detract from the accuracy of the response."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-006",
+          "evaluation": {
+            "case_id": "ata-006",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Wrocław",
+                  "actual_answer": "ATA University operates in Warsaw and **Wrocław**."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer contains the expected answer 'Wrocław' and provides additional context, which is relevant and consistent with the expected answer.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Wrocław"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University operates in Warsaw and **Wrocław**.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.5362,
+                        "final_score": 0.6562
+                      },
+                      {
+                        "title": "Czesne — Architektura Wnętrz",
+                        "section": "Czesne: Architektura Wnętrz",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.5016,
+                        "final_score": 0.6216
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer contains the expected answer 'Wrocław' and provides additional context, which is relevant and consistent with the expected answer."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-007",
+          "evaluation": {
+            "case_id": "ata-007",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "Yes, ATA University operates in Warsaw."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer includes the city name 'Warsaw' as required by the question, but contains additional information that is relevant and consistent with the expected answer.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "Yes, ATA University operates in Warsaw.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.542,
+                        "final_score": 0.662
+                      },
+                      {
+                        "title": "Czesne — Architektura Wnętrz",
+                        "section": "Czesne: Architektura Wnętrz",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.4744,
+                        "final_score": 0.5944
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer includes the city name 'Warsaw' as required by the question, but contains additional information that is relevant and consistent with the expected answer."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-008",
+          "evaluation": {
+            "case_id": "ata-008",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Wrocław",
+                  "actual_answer": "Yes, ATA University operates in Wrocław."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer includes the city name, which is essential to the expected answer, and provides a clear confirmation of the university's presence in Wrocław.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Wrocław"
+                  },
+                  "actual_output": {
+                    "answer": "Yes, ATA University operates in Wrocław.",
+                    "citations": [
+                      {
+                        "title": "Czesne — Architektura",
+                        "section": "Czesne: Architektura",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.5194,
+                        "final_score": 0.6394
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer includes the city name, which is essential to the expected answer, and provides a clear confirmation of the university's presence in Wrocław."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-009",
+          "evaluation": {
+            "case_id": "ata-009",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "ATA operates in Warsaw."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer contains the essential correct information, but includes additional context that is relevant and consistent with the expected answer.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "ATA operates in Warsaw.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4418,
+                        "final_score": 0.4418
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Proces rekrutacji w ATA zależy od wybranego kierunku studiów",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.3877,
+                        "final_score": 0.3877
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer contains the essential correct information, but includes additional context that is relevant and consistent with the expected answer."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-010",
+          "evaluation": {
+            "case_id": "ata-010",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Wrocław",
+                  "actual_answer": "ATA University also operates in **Wrocław**."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer contains the essential correct information, but also includes additional context that makes the answer slightly ambiguous.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Wrocław"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University also operates in **Wrocław**.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4489,
+                        "final_score": 0.5689
+                      },
+                      {
+                        "title": "Czesne — Zarządzanie i inżynieria produkcji",
+                        "section": "Czesne: Zarządzanie i inżynieria produkcji — Zarządzanie przedsiębiorstwem produkcyjnym",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.4451,
+                        "final_score": 0.5651
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": false,
+                    "reason": "The actual answer contains the essential correct information, but also includes additional context that makes the answer slightly ambiguous."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "91e5d9a8-566f-48db-bae5-89c5b90acc2c",
+    "created_at": "2026-09-18T14:44:44.782317Z",
+    "mode": "system",
+    "result": {
+      "dataset_id": "31dfb4d6-f54e-42fd-92c0-6c5993823052",
+      "dataset_name": "ATA RAG Location Test",
+      "system": "ata-rag",
+      "version": "v3",
+      "total_cases": 10,
+      "passed_cases": 10,
+      "failed_cases": 0,
+      "average_score": 0.9,
+      "results": [
+        {
+          "case_id": "ata-001",
+          "evaluation": {
+            "case_id": "ata-001",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "One Polish city where ATA University operates is Warsaw."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer contains the essential correct information, but includes additional information that makes the answer potentially misleading.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "One Polish city where ATA University operates is Warsaw.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Zapytaj o zakwaterowanie",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.5521,
+                        "final_score": 0.5521
+                      },
+                      {
+                        "title": "Czesne — Architektura",
+                        "section": "Czesne: Architektura",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.4499,
+                        "final_score": 0.4499
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": false,
+                    "reason": "The actual answer contains the essential correct information, but includes additional information that makes the answer potentially misleading."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-002",
+          "evaluation": {
+            "case_id": "ata-002",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Wrocław",
+                  "actual_answer": "ATA University also operates in **Wrocław**."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer contains the essential correct information, but also includes additional context that is not necessary to answer the question",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Wrocław"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University also operates in **Wrocław**.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Zniżki na studiach w języku angielskim",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.5316,
+                        "final_score": 0.6516
+                      },
+                      {
+                        "title": "Czesne — Zarządzanie",
+                        "section": "Czesne: Zarządzanie — Biznes międzynarodowy",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.4935,
+                        "final_score": 0.6135
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": false,
+                    "reason": "The actual answer contains the essential correct information, but also includes additional context that is not necessary to answer the question"
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-003",
+          "evaluation": {
+            "case_id": "ata-003",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "Warsaw"
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer matches the expected answer in terms of content, but it's unclear if it's the only correct response. The answer is relevant and consistent with the expected answer.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "Warsaw",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Zniżki na studiach w języku angielskim",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4629,
+                        "final_score": 0.5829
+                      },
+                      {
+                        "title": "Czesne — Architektura",
+                        "section": "Czesne: Architektura",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.4366,
+                        "final_score": 0.5566
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer matches the expected answer in terms of content, but it's unclear if it's the only correct response. The answer is relevant and consistent with the expected answer."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-004",
+          "evaluation": {
+            "case_id": "ata-004",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Wrocław",
+                  "actual_answer": "Yes, Wrocław is listed as a city where ATA University operates. The city is **Wrocław**."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer correctly identifies Wrocław as a city where ATA University operates, matching the expected answer's essential meaning.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Wrocław"
+                  },
+                  "actual_output": {
+                    "answer": "Yes, Wrocław is listed as a city where ATA University operates. The city is **Wrocław**.",
+                    "citations": [
+                      {
+                        "title": "Czesne — Architektura",
+                        "section": "Czesne: Architektura",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.5069,
+                        "final_score": 0.6269
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer correctly identifies Wrocław as a city where ATA University operates, matching the expected answer's essential meaning."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-005",
+          "evaluation": {
+            "case_id": "ata-005",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "The city mentioned in ATA University’s information that is Poland’s capital is **Warsaw (Warszawa)**."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer contains the expected answer 'Warsaw' but includes additional information that makes the answer slightly ambiguous and potentially misleading due to the inclusion of '(Warszawa)'.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "The city mentioned in ATA University’s information that is Poland’s capital is **Warsaw (Warszawa)**.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Zapytaj o zakwaterowanie",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.6103,
+                        "final_score": 0.6103
+                      },
+                      {
+                        "title": "Czesne — Budownictwo",
+                        "section": "Czesne: Budownictwo — Inżynieria i bezpieczeństwo obiektów infrastruktury krytycznej",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.5457,
+                        "final_score": 0.5457
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": false,
+                    "reason": "The actual answer contains the expected answer 'Warsaw' but includes additional information that makes the answer slightly ambiguous and potentially misleading due to the inclusion of '(Warszawa)'."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-006",
+          "evaluation": {
+            "case_id": "ata-006",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Wrocław",
+                  "actual_answer": "ATA University operates in Warsaw and **Wrocław**."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer contains the expected answer 'Wrocław' and provides additional context, which is relevant and consistent with the expected answer.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Wrocław"
+                  },
+                  "actual_output": {
+                    "answer": "ATA University operates in Warsaw and **Wrocław**.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.5362,
+                        "final_score": 0.6562
+                      },
+                      {
+                        "title": "Czesne — Architektura Wnętrz",
+                        "section": "Czesne: Architektura Wnętrz",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.5016,
+                        "final_score": 0.6216
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer contains the expected answer 'Wrocław' and provides additional context, which is relevant and consistent with the expected answer."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-007",
+          "evaluation": {
+            "case_id": "ata-007",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "Yes, ATA University operates in Warsaw."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer includes the city name 'Warsaw' as required by the question, but contains additional information that is relevant and consistent with the expected answer.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "Yes, ATA University operates in Warsaw.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.542,
+                        "final_score": 0.662
+                      },
+                      {
+                        "title": "Czesne — Architektura Wnętrz",
+                        "section": "Czesne: Architektura Wnętrz",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.4744,
+                        "final_score": 0.5944
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer includes the city name 'Warsaw' as required by the question, but contains additional information that is relevant and consistent with the expected answer."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-008",
+          "evaluation": {
+            "case_id": "ata-008",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Wrocław",
+                  "actual_answer": "Yes, ATA University operates in Wrocław."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer includes the city name, which is essential to the expected answer, and provides a clear confirmation of the university's presence in Wrocław.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Wrocław"
+                  },
+                  "actual_output": {
+                    "answer": "Yes, ATA University operates in Wrocław.",
+                    "citations": [
+                      {
+                        "title": "Czesne — Architektura",
+                        "section": "Czesne: Architektura",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.5194,
+                        "final_score": 0.6394
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer includes the city name, which is essential to the expected answer, and provides a clear confirmation of the university's presence in Wrocław."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-009",
+          "evaluation": {
+            "case_id": "ata-009",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Warsaw",
+                  "actual_answer": "Warsaw."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer contains the essential correct information, but lacks a period at the end, making it slightly less clear than the expected answer.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Warsaw"
+                  },
+                  "actual_output": {
+                    "answer": "Warsaw.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4418,
+                        "final_score": 0.4418
+                      },
+                      {
+                        "title": "Rekrutacja do ATA",
+                        "section": "Proces rekrutacji w ATA zależy od wybranego kierunku studiów",
+                        "url": "https://uczelnia.akademiata.pl/kandydat/rekrutacja/",
+                        "similarity": 0.3877,
+                        "final_score": 0.3877
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer contains the essential correct information, but lacks a period at the end, making it slightly less clear than the expected answer."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        },
+        {
+          "case_id": "ata-010",
+          "evaluation": {
+            "case_id": "ata-010",
+            "system": "ata-rag",
+            "results": [
+              {
+                "evaluator": "contains_answer",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "Expected answer was found in the actual answer.",
+                "metadata": {
+                  "expected_answer": "Wrocław",
+                  "actual_answer": "The other Polish city where ATA operates, besides Warsaw, is **Wrocław**."
+                }
+              },
+              {
+                "evaluator": "required_fields",
+                "score": 1.0,
+                "passed": true,
+                "category": "deterministic",
+                "reason": "All required fields are present.",
+                "metadata": {
+                  "required_fields": [],
+                  "missing_fields": []
+                }
+              },
+              {
+                "evaluator": "llm_judge",
+                "score": 0.7,
+                "passed": true,
+                "category": "llm",
+                "reason": "The actual answer contains the essential correct information, but includes additional words that do not detract from the accuracy of the answer.",
+                "metadata": {
+                  "model": "llama3.2:3b",
+                  "expected_output": {
+                    "answer": "Wrocław"
+                  },
+                  "actual_output": {
+                    "answer": "The other Polish city where ATA operates, besides Warsaw, is **Wrocław**.",
+                    "citations": [
+                      {
+                        "title": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "section": "Rekrutacja na ATA - wszystkie informacje w jednym miejscu.",
+                        "url": "https://akademiata.pl/zasady-rekrutacji/",
+                        "similarity": 0.4489,
+                        "final_score": 0.5689
+                      },
+                      {
+                        "title": "Czesne — Zarządzanie i inżynieria produkcji",
+                        "section": "Czesne: Zarządzanie i inżynieria produkcji — Zarządzanie przedsiębiorstwem produkcyjnym",
+                        "url": "https://akademiata.pl/kalkulator-czesnego/",
+                        "similarity": 0.4451,
+                        "final_score": 0.5651
+                      }
+                    ]
+                  },
+                  "judge_response": {
+                    "score": 0.7,
+                    "passed": true,
+                    "reason": "The actual answer contains the essential correct information, but includes additional words that do not detract from the accuracy of the answer."
+                  }
+                }
+              }
+            ],
+            "average_score": 0.9,
+            "all_passed": true
+          }
+        }
+      ]
+    }
+  }
+]
