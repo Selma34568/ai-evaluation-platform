@@ -183,5 +183,1515 @@
       }
     ],
     "created_at": "2026-09-17T22:16:34.199624Z"
+  },
+  {
+    "id": "eb9001e7-3e1f-4391-9158-77c9cd848514",
+    "name": "ATA RAG 100-Case Robustness Test",
+    "system": "ata-rag",
+    "version": "v1",
+    "description": "100-case paraphrase robustness evaluation derived from 10 validated ATA RAG golden cases.",
+    "cases": [
+      {
+        "id": "ata-001-p01",
+        "system": "ata-rag",
+        "input": {
+          "question": "Name one Polish city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-001",
+          "variant": 1,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-001-p02",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please answer briefly: Name one Polish city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-001",
+          "variant": 2,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-001-p03",
+        "system": "ata-rag",
+        "input": {
+          "question": "Based on ATA University information, Name one Polish city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-001",
+          "variant": 3,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-001-p04",
+        "system": "ata-rag",
+        "input": {
+          "question": "Using the available university information, Name one Polish city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-001",
+          "variant": 4,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-001-p05",
+        "system": "ata-rag",
+        "input": {
+          "question": "Can you tell me: Name one Polish city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-001",
+          "variant": 5,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-001-p06",
+        "system": "ata-rag",
+        "input": {
+          "question": "I need to know: Name one Polish city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-001",
+          "variant": 6,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-001-p07",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please provide the answer to this question: Name one Polish city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-001",
+          "variant": 7,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-001-p08",
+        "system": "ata-rag",
+        "input": {
+          "question": "According to ATA University data, Name one Polish city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-001",
+          "variant": 8,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-001-p09",
+        "system": "ata-rag",
+        "input": {
+          "question": "Answer accurately: Name one Polish city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-001",
+          "variant": 9,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-001-p10",
+        "system": "ata-rag",
+        "input": {
+          "question": "For an applicant, please clarify: Name one Polish city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-001",
+          "variant": 10,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-002-p01",
+        "system": "ata-rag",
+        "input": {
+          "question": "In which other Polish city besides Warsaw does ATA University operate?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-002",
+          "variant": 1,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-002-p02",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please answer briefly: In which other Polish city besides Warsaw does ATA University operate?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-002",
+          "variant": 2,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-002-p03",
+        "system": "ata-rag",
+        "input": {
+          "question": "Based on ATA University information, In which other Polish city besides Warsaw does ATA University operate?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-002",
+          "variant": 3,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-002-p04",
+        "system": "ata-rag",
+        "input": {
+          "question": "Using the available university information, In which other Polish city besides Warsaw does ATA University operate?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-002",
+          "variant": 4,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-002-p05",
+        "system": "ata-rag",
+        "input": {
+          "question": "Can you tell me: In which other Polish city besides Warsaw does ATA University operate?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-002",
+          "variant": 5,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-002-p06",
+        "system": "ata-rag",
+        "input": {
+          "question": "I need to know: In which other Polish city besides Warsaw does ATA University operate?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-002",
+          "variant": 6,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-002-p07",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please provide the answer to this question: In which other Polish city besides Warsaw does ATA University operate?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-002",
+          "variant": 7,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-002-p08",
+        "system": "ata-rag",
+        "input": {
+          "question": "According to ATA University data, In which other Polish city besides Warsaw does ATA University operate?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-002",
+          "variant": 8,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-002-p09",
+        "system": "ata-rag",
+        "input": {
+          "question": "Answer accurately: In which other Polish city besides Warsaw does ATA University operate?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-002",
+          "variant": 9,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-002-p10",
+        "system": "ata-rag",
+        "input": {
+          "question": "For an applicant, please clarify: In which other Polish city besides Warsaw does ATA University operate?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-002",
+          "variant": 10,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-003-p01",
+        "system": "ata-rag",
+        "input": {
+          "question": "Is Warsaw one of the cities where ATA University operates? Answer with the city name."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-003",
+          "variant": 1,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-003-p02",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please answer briefly: Is Warsaw one of the cities where ATA University operates? Answer with the city name."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-003",
+          "variant": 2,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-003-p03",
+        "system": "ata-rag",
+        "input": {
+          "question": "Based on ATA University information, Is Warsaw one of the cities where ATA University operates? Answer with the city name."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-003",
+          "variant": 3,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-003-p04",
+        "system": "ata-rag",
+        "input": {
+          "question": "Using the available university information, Is Warsaw one of the cities where ATA University operates? Answer with the city name."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-003",
+          "variant": 4,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-003-p05",
+        "system": "ata-rag",
+        "input": {
+          "question": "Can you tell me: Is Warsaw one of the cities where ATA University operates? Answer with the city name."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-003",
+          "variant": 5,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-003-p06",
+        "system": "ata-rag",
+        "input": {
+          "question": "I need to know: Is Warsaw one of the cities where ATA University operates? Answer with the city name."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-003",
+          "variant": 6,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-003-p07",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please provide the answer to this question: Is Warsaw one of the cities where ATA University operates? Answer with the city name."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-003",
+          "variant": 7,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-003-p08",
+        "system": "ata-rag",
+        "input": {
+          "question": "According to ATA University data, Is Warsaw one of the cities where ATA University operates? Answer with the city name."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-003",
+          "variant": 8,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-003-p09",
+        "system": "ata-rag",
+        "input": {
+          "question": "Answer accurately: Is Warsaw one of the cities where ATA University operates? Answer with the city name."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-003",
+          "variant": 9,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-003-p10",
+        "system": "ata-rag",
+        "input": {
+          "question": "For an applicant, please clarify: Is Warsaw one of the cities where ATA University operates? Answer with the city name."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-003",
+          "variant": 10,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-004-p01",
+        "system": "ata-rag",
+        "input": {
+          "question": "Is Wrocław one of ATA University's locations? Identify the city."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-004",
+          "variant": 1,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-004-p02",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please answer briefly: Is Wrocław one of ATA University's locations? Identify the city."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-004",
+          "variant": 2,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-004-p03",
+        "system": "ata-rag",
+        "input": {
+          "question": "Based on ATA University information, Is Wrocław one of ATA University's locations? Identify the city."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-004",
+          "variant": 3,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-004-p04",
+        "system": "ata-rag",
+        "input": {
+          "question": "Using the available university information, Is Wrocław one of ATA University's locations? Identify the city."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-004",
+          "variant": 4,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-004-p05",
+        "system": "ata-rag",
+        "input": {
+          "question": "Can you tell me: Is Wrocław one of ATA University's locations? Identify the city."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-004",
+          "variant": 5,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-004-p06",
+        "system": "ata-rag",
+        "input": {
+          "question": "I need to know: Is Wrocław one of ATA University's locations? Identify the city."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-004",
+          "variant": 6,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-004-p07",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please provide the answer to this question: Is Wrocław one of ATA University's locations? Identify the city."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-004",
+          "variant": 7,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-004-p08",
+        "system": "ata-rag",
+        "input": {
+          "question": "According to ATA University data, Is Wrocław one of ATA University's locations? Identify the city."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-004",
+          "variant": 8,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-004-p09",
+        "system": "ata-rag",
+        "input": {
+          "question": "Answer accurately: Is Wrocław one of ATA University's locations? Identify the city."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-004",
+          "variant": 9,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-004-p10",
+        "system": "ata-rag",
+        "input": {
+          "question": "For an applicant, please clarify: Is Wrocław one of ATA University's locations? Identify the city."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-004",
+          "variant": 10,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-005-p01",
+        "system": "ata-rag",
+        "input": {
+          "question": "Which city mentioned in ATA University's information is Poland's capital?"
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-005",
+          "variant": 1,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-005-p02",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please answer briefly: Which city mentioned in ATA University's information is Poland's capital?"
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-005",
+          "variant": 2,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-005-p03",
+        "system": "ata-rag",
+        "input": {
+          "question": "Based on ATA University information, Which city mentioned in ATA University's information is Poland's capital?"
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-005",
+          "variant": 3,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-005-p04",
+        "system": "ata-rag",
+        "input": {
+          "question": "Using the available university information, Which city mentioned in ATA University's information is Poland's capital?"
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-005",
+          "variant": 4,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-005-p05",
+        "system": "ata-rag",
+        "input": {
+          "question": "Can you tell me: Which city mentioned in ATA University's information is Poland's capital?"
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-005",
+          "variant": 5,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-005-p06",
+        "system": "ata-rag",
+        "input": {
+          "question": "I need to know: Which city mentioned in ATA University's information is Poland's capital?"
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-005",
+          "variant": 6,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-005-p07",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please provide the answer to this question: Which city mentioned in ATA University's information is Poland's capital?"
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-005",
+          "variant": 7,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-005-p08",
+        "system": "ata-rag",
+        "input": {
+          "question": "According to ATA University data, Which city mentioned in ATA University's information is Poland's capital?"
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-005",
+          "variant": 8,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-005-p09",
+        "system": "ata-rag",
+        "input": {
+          "question": "Answer accurately: Which city mentioned in ATA University's information is Poland's capital?"
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-005",
+          "variant": 9,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-005-p10",
+        "system": "ata-rag",
+        "input": {
+          "question": "For an applicant, please clarify: Which city mentioned in ATA University's information is Poland's capital?"
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-005",
+          "variant": 10,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-006-p01",
+        "system": "ata-rag",
+        "input": {
+          "question": "ATA University operates in Warsaw and which other city?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-006",
+          "variant": 1,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-006-p02",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please answer briefly: ATA University operates in Warsaw and which other city?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-006",
+          "variant": 2,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-006-p03",
+        "system": "ata-rag",
+        "input": {
+          "question": "Based on ATA University information, ATA University operates in Warsaw and which other city?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-006",
+          "variant": 3,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-006-p04",
+        "system": "ata-rag",
+        "input": {
+          "question": "Using the available university information, ATA University operates in Warsaw and which other city?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-006",
+          "variant": 4,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-006-p05",
+        "system": "ata-rag",
+        "input": {
+          "question": "Can you tell me: ATA University operates in Warsaw and which other city?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-006",
+          "variant": 5,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-006-p06",
+        "system": "ata-rag",
+        "input": {
+          "question": "I need to know: ATA University operates in Warsaw and which other city?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-006",
+          "variant": 6,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-006-p07",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please provide the answer to this question: ATA University operates in Warsaw and which other city?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-006",
+          "variant": 7,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-006-p08",
+        "system": "ata-rag",
+        "input": {
+          "question": "According to ATA University data, ATA University operates in Warsaw and which other city?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-006",
+          "variant": 8,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-006-p09",
+        "system": "ata-rag",
+        "input": {
+          "question": "Answer accurately: ATA University operates in Warsaw and which other city?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-006",
+          "variant": 9,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-006-p10",
+        "system": "ata-rag",
+        "input": {
+          "question": "For an applicant, please clarify: ATA University operates in Warsaw and which other city?"
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-006",
+          "variant": 10,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-007-p01",
+        "system": "ata-rag",
+        "input": {
+          "question": "Does ATA University operate in Warsaw? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-007",
+          "variant": 1,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-007-p02",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please answer briefly: Does ATA University operate in Warsaw? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-007",
+          "variant": 2,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-007-p03",
+        "system": "ata-rag",
+        "input": {
+          "question": "Based on ATA University information, Does ATA University operate in Warsaw? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-007",
+          "variant": 3,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-007-p04",
+        "system": "ata-rag",
+        "input": {
+          "question": "Using the available university information, Does ATA University operate in Warsaw? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-007",
+          "variant": 4,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-007-p05",
+        "system": "ata-rag",
+        "input": {
+          "question": "Can you tell me: Does ATA University operate in Warsaw? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-007",
+          "variant": 5,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-007-p06",
+        "system": "ata-rag",
+        "input": {
+          "question": "I need to know: Does ATA University operate in Warsaw? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-007",
+          "variant": 6,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-007-p07",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please provide the answer to this question: Does ATA University operate in Warsaw? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-007",
+          "variant": 7,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-007-p08",
+        "system": "ata-rag",
+        "input": {
+          "question": "According to ATA University data, Does ATA University operate in Warsaw? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-007",
+          "variant": 8,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-007-p09",
+        "system": "ata-rag",
+        "input": {
+          "question": "Answer accurately: Does ATA University operate in Warsaw? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-007",
+          "variant": 9,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-007-p10",
+        "system": "ata-rag",
+        "input": {
+          "question": "For an applicant, please clarify: Does ATA University operate in Warsaw? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-007",
+          "variant": 10,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-008-p01",
+        "system": "ata-rag",
+        "input": {
+          "question": "Does ATA University operate in Wrocław? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-008",
+          "variant": 1,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-008-p02",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please answer briefly: Does ATA University operate in Wrocław? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-008",
+          "variant": 2,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-008-p03",
+        "system": "ata-rag",
+        "input": {
+          "question": "Based on ATA University information, Does ATA University operate in Wrocław? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-008",
+          "variant": 3,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-008-p04",
+        "system": "ata-rag",
+        "input": {
+          "question": "Using the available university information, Does ATA University operate in Wrocław? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-008",
+          "variant": 4,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-008-p05",
+        "system": "ata-rag",
+        "input": {
+          "question": "Can you tell me: Does ATA University operate in Wrocław? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-008",
+          "variant": 5,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-008-p06",
+        "system": "ata-rag",
+        "input": {
+          "question": "I need to know: Does ATA University operate in Wrocław? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-008",
+          "variant": 6,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-008-p07",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please provide the answer to this question: Does ATA University operate in Wrocław? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-008",
+          "variant": 7,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-008-p08",
+        "system": "ata-rag",
+        "input": {
+          "question": "According to ATA University data, Does ATA University operate in Wrocław? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-008",
+          "variant": 8,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-008-p09",
+        "system": "ata-rag",
+        "input": {
+          "question": "Answer accurately: Does ATA University operate in Wrocław? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-008",
+          "variant": 9,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-008-p10",
+        "system": "ata-rag",
+        "input": {
+          "question": "For an applicant, please clarify: Does ATA University operate in Wrocław? Include the city name in your answer."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-008",
+          "variant": 10,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-009-p01",
+        "system": "ata-rag",
+        "input": {
+          "question": "Identify the capital city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-009",
+          "variant": 1,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-009-p02",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please answer briefly: Identify the capital city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-009",
+          "variant": 2,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-009-p03",
+        "system": "ata-rag",
+        "input": {
+          "question": "Based on ATA University information, Identify the capital city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-009",
+          "variant": 3,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-009-p04",
+        "system": "ata-rag",
+        "input": {
+          "question": "Using the available university information, Identify the capital city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-009",
+          "variant": 4,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-009-p05",
+        "system": "ata-rag",
+        "input": {
+          "question": "Can you tell me: Identify the capital city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-009",
+          "variant": 5,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-009-p06",
+        "system": "ata-rag",
+        "input": {
+          "question": "I need to know: Identify the capital city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-009",
+          "variant": 6,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-009-p07",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please provide the answer to this question: Identify the capital city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-009",
+          "variant": 7,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-009-p08",
+        "system": "ata-rag",
+        "input": {
+          "question": "According to ATA University data, Identify the capital city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-009",
+          "variant": 8,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-009-p09",
+        "system": "ata-rag",
+        "input": {
+          "question": "Answer accurately: Identify the capital city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-009",
+          "variant": 9,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-009-p10",
+        "system": "ata-rag",
+        "input": {
+          "question": "For an applicant, please clarify: Identify the capital city where ATA University operates."
+        },
+        "expected_output": {
+          "answer": "Warsaw"
+        },
+        "metadata": {
+          "source_case_id": "ata-009",
+          "variant": 10,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-010-p01",
+        "system": "ata-rag",
+        "input": {
+          "question": "Name ATA University's other Polish operating city, excluding Warsaw."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-010",
+          "variant": 1,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-010-p02",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please answer briefly: Name ATA University's other Polish operating city, excluding Warsaw."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-010",
+          "variant": 2,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-010-p03",
+        "system": "ata-rag",
+        "input": {
+          "question": "Based on ATA University information, Name ATA University's other Polish operating city, excluding Warsaw."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-010",
+          "variant": 3,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-010-p04",
+        "system": "ata-rag",
+        "input": {
+          "question": "Using the available university information, Name ATA University's other Polish operating city, excluding Warsaw."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-010",
+          "variant": 4,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-010-p05",
+        "system": "ata-rag",
+        "input": {
+          "question": "Can you tell me: Name ATA University's other Polish operating city, excluding Warsaw."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-010",
+          "variant": 5,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-010-p06",
+        "system": "ata-rag",
+        "input": {
+          "question": "I need to know: Name ATA University's other Polish operating city, excluding Warsaw."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-010",
+          "variant": 6,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-010-p07",
+        "system": "ata-rag",
+        "input": {
+          "question": "Please provide the answer to this question: Name ATA University's other Polish operating city, excluding Warsaw."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-010",
+          "variant": 7,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-010-p08",
+        "system": "ata-rag",
+        "input": {
+          "question": "According to ATA University data, Name ATA University's other Polish operating city, excluding Warsaw."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-010",
+          "variant": 8,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-010-p09",
+        "system": "ata-rag",
+        "input": {
+          "question": "Answer accurately: Name ATA University's other Polish operating city, excluding Warsaw."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-010",
+          "variant": 9,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      },
+      {
+        "id": "ata-010-p10",
+        "system": "ata-rag",
+        "input": {
+          "question": "For an applicant, please clarify: Name ATA University's other Polish operating city, excluding Warsaw."
+        },
+        "expected_output": {
+          "answer": "Wrocław"
+        },
+        "metadata": {
+          "source_case_id": "ata-010",
+          "variant": 10,
+          "evaluation_type": "paraphrase_robustness"
+        }
+      }
+    ],
+    "created_at": "2026-09-24T18:57:33.130485+00:00"
   }
 ]
